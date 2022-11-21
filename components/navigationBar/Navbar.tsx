@@ -8,7 +8,7 @@ import {
 
 const Navbar = () => {
   return (
-    <Breadcrumb separator=" ">
+    <Breadcrumb separator=" " spacing={6} fontSize={18}>
       <BreadcrumbItem>
         <BreadcrumbLink href="/">Home</BreadcrumbLink>
       </BreadcrumbItem>

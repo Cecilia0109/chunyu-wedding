@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Flex, Heading, Text } from "@chakra-ui/react";
+import { Divider, Flex, Heading, Text, Button } from "@chakra-ui/react";
 
 import Navbar from "../components/navigationBar/Navbar";
 import SocialMedias from "../components/navigationBar/SocialMedias";
@@ -15,6 +15,7 @@ const Contact = () => {
       <Navbar />
       <Heading marginY={5}>Reservation</Heading>
       <ContactContainer />
+     
       <SocialMedias />
     </Flex>
   )

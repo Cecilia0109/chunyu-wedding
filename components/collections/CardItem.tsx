@@ -33,7 +33,7 @@ const CardItem = () => {
       <Heading my='4' size='lg'>
         Liz Martinez
       </Heading>
-      <Button variant='outline' fontSize={12}> learn more</Button>
+      <Button variant='outline' fontSize={12} colorScheme="purple"> learn more</Button>
       
       </Flex>
       
