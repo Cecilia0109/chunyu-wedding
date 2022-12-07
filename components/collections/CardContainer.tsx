@@ -4,7 +4,7 @@ import CardItem from './CardItem'
 
 const CardContainer = () => {
   return (
-    <Flex marginY={10} justifyContent="space-around" width="85vw" flexWrap="wrap">
+    <Flex marginY={10} justifyContent="space-around" width="85vw" flexWrap="wrap" height="70vh">
     <CardItem />
     <CardItem />
     <CardItem />

@@ -15,13 +15,15 @@ import collections1 from "../../public/collections1.jpg"
 const CardItem = () => {
   return (
 
-    <Box maxW='30%' bg='white' p='6' border="1px solid gray" position="relative">
-      <Image
+    <Box bg='white' p='6' border="1px solid gray" position="relative" maxH="65vh">
+     <Box height="80%">
+     <Image
         src={collections1}
         alt='Svartifoss Waterfall'
-        objectFit='cover'
-     
+        objectFit='contain'
+        layout="fill"
       />
+     </Box>
       <HStack mt='5' spacing='3'>
         {['Waterfall', 'Nature'].map((item) => (
           <Tag key={item} variant='outline'>
